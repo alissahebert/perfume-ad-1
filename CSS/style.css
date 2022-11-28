@@ -1,0 +1,98 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F2EBE3;
+  width: 75%;
+}
+
+.Ad{
+  background-color: white;
+  height: 375px;
+  width: 600px;
+  position: absolute;
+  right: 325px;
+  bottom: 125px;
+  border-radius: .5em;
+}
+
+.left-container {
+  height: 375px;
+  width: 50%;
+  background-image: url(../images/image-product-desktop.jpg);
+  background-blend-mode: lighten;
+  background-color: white;
+  background-size: cover;
+  border-top-left-radius: .5em;
+  border-bottom-left-radius: .5em;
+  display: inline-block;
+}
+
+.right-container {
+height: 375px;
+width: 50%;
+background-color: white;
+display: inline-block;
+position: absolute;
+left: 300px;
+border-top-right-radius: .5em;
+border-bottom-right-radius: .5em;
+}
+
+button {
+  background-color: #395144;
+border: none;
+border-radius: .5em;
+color: white;
+padding: 10px 70px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: .8em;
+position: relative;
+left: 40px;
+bottom: 10px;
+cursor: pointer;
+}
+
+
+h1 {
+  font-family: 'Fraunces', serif;
+  width: 70%;
+  margin-left: 25px;
+  line-height: 30px;
+  font-size: 1.8em;
+}
+
+.perfume {
+font-size: 12px;
+margin-left: 25px;
+margin-top: 25px;
+}
+
+.bio {
+  font-size: 15px;
+  margin-left: 25px;
+  width: 70%;
+  font-size: .8em;
+  line-height: 20px;
+}
+
+.price {
+  font-family: 'Fraunces', serif;
+  font-size: 1.8em;
+  color: #3C8067;
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 0px;
+}
+
+.reduced-price {
+font-size: .8em;
+display: inline-block;
+margin-left: 25px;
+vertical-align: 45%;
+}
+
+.cart {
+  width: .8em;
+  padding-right: .8em;
+}
